@@ -1,0 +1,35 @@
+body {
+	font-family: 'Red Hat Mono', monospace;
+	color: #fff;
+}
+
+h1 {
+	color: 
+}
+
+.bar {
+	background-image: linear-gradient(#CCCCFF, #6960EC, #36013F);
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation a {
+	text-decoration: none;
+	padding-left: 30px;
+	color: #fff;
+}
+
+.navigation a:hover {
+	text-decoration: underline;
+}
+.icon:hover {
+	color: #DC143C;
+}
