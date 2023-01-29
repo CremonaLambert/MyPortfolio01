@@ -65,12 +65,27 @@ body {
 	border-radius: 8px;
 	font-size: 1.18rem;
 	display: inline-block;
+	-webkit-transition: ease-out 0.4s;
+	-moz-transition: ease-out 0.4s;
+	transition: ease-out 0.5s;
 }
 
 .button:hover {
+	box-shadow: inset 400px 50px 0 0 #212121;
+	color: #eeeeee;
+  }
+  
+  #outer {
+	width: 364px;
+	margin: 50px auto 0 auto;
+	text-align: center;
+  }
+
+/* .button:hover {
 	background-color: #212121;
 	color: #eeeeee;
-}
+} */
+
 
 .section2 {
 	background-color: #212121;
