@@ -50,9 +50,10 @@ body {
 	/* border: 2px solid blue; */
 	background-color: #fff;
 	/* padding: 40px 20px; */
-	/* display: flex; */
+	display: flex;
 	/* flex-direction: row; */
 	/* justify-content: center; */
+	/* position: relative; */
 	height: 100vh;
 	/* max-width: 1000px; */
 	/* margin: auto 0; */
@@ -65,6 +66,8 @@ body {
 .section-center {
 	border: 2px solid #212121;
 	max-width: 1010px;
+	width: 70%;
+	/* position: absolute; */
 	/* display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
 	display: flex;
@@ -72,6 +75,8 @@ body {
 	justify-content: space-around;
 	/* align-content: center; */
 	margin: auto; 
+	padding: 100px;
+	/* height: 100vh; */
 }
 
 .section-center h1 {
