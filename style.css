@@ -3,6 +3,7 @@
 	--main-text-color: #000;
 	--header-bg-color: #212121;
 	--header-text-color: #fff;
+	--logo-text-color: #eeeeee;
 }
 
 
@@ -11,11 +12,24 @@ body {
 	margin: 0;
 }
 
+.logo{
+	/* border: 3px solid #eeeeee; */
+	border-bottom: 3px solid var(--logo-text-color);
+	border-right: 3px solid var(--logo-text-color);
+	width: 120px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	
+
+}
+
 .bar {
 	background-color: var(--header-bg-color);
 	display: flex;
 	justify-content: space-between;
-	padding: 0 20px;
+	padding: 10px 20px;
 	align-items: center;
 	box-shadow: 1px 1px 4px 0px #000;
 	position: sticky;
@@ -23,6 +37,7 @@ body {
 }
 
 .bar h1 {
+	/* border-bottom: #eeeeee; */
 	color: #eeeeee;
 	font-size: 1.6rem;
 }
@@ -51,12 +66,17 @@ body {
 	background-color: #fff;
 	/* padding: 40px 20px; */
 	display: flex;
+	flex-direction: column;
 	/* flex-direction: row; */
 	/* justify-content: center; */
 	/* position: relative; */
 	height: 100vh;
 	/* max-width: 1000px; */
 	/* margin: auto 0; */
+}
+
+.icon_infinite{
+	border: 3px solid rebeccapurple;
 }
 
 .profile_text_section{
@@ -75,7 +95,7 @@ body {
 	justify-content: space-around;
 	/* align-content: center; */
 	margin: auto; 
-	padding: 100px;
+	padding: 95px;
 	/* height: 100vh; */
 }
 
@@ -165,8 +185,4 @@ body {
 
 .item:hover {
 	border: 2px solid #eeeeee;
-}
-
-img{
-	/* width: 500px; */
 }
