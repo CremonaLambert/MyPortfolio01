@@ -1,3 +1,11 @@
+:root{
+	--main-bg-color: #fff;
+	--main-text-color: #000;
+	--header-bg-color: #212121;
+	--header-text-color: #fff;
+}
+
+
 body {
 	font-family: 'Red Hat Mono', monospace;
 	margin: 0;
@@ -38,15 +46,20 @@ body {
 	transform: rotate(50deg);
 }
 
-.section1 {
+.profile_section {
 	background-color: #fff;
 	padding: 40px 20px;
 	display: flex;
 	justify-content: center;
 }
+
 .section-center {
-	max-width: 750px;
+	border: 2px solid blue;
+	max-width: 900px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
+
 .section-center h1 {
 	font-weight: normal;
 	font-size: 3rem;
