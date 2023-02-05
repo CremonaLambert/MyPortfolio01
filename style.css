@@ -12,7 +12,7 @@ body {
 }
 
 .bar {
-	background-color: #212121;
+	background-color: var(--header-bg-color);
 	display: flex;
 	justify-content: space-between;
 	padding: 0 20px;
@@ -47,17 +47,31 @@ body {
 }
 
 .profile_section {
+	/* border: 2px solid blue; */
 	background-color: #fff;
-	padding: 40px 20px;
-	display: flex;
-	justify-content: center;
+	/* padding: 40px 20px; */
+	/* display: flex; */
+	/* flex-direction: row; */
+	/* justify-content: center; */
+	height: 100vh;
+	/* max-width: 1000px; */
+	/* margin: auto 0; */
+}
+
+.profile_text_section{
+	width: 450px;
 }
 
 .section-center {
-	border: 2px solid blue;
-	max-width: 900px;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	border: 2px solid #212121;
+	max-width: 1010px;
+	/* display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-around;
+	/* align-content: center; */
+	margin: auto; 
 }
 
 .section-center h1 {
@@ -98,7 +112,9 @@ body {
 	background-color: #212121;
 	color: #eeeeee;
 } */
-
+#name{
+	font-weight: bold;
+}
 
 .section2 {
 	background-color: #212121;
@@ -144,4 +160,8 @@ body {
 
 .item:hover {
 	border: 2px solid #eeeeee;
+}
+
+img{
+	/* width: 500px; */
 }
