@@ -186,3 +186,9 @@ body {
 .item:hover {
 	border: 2px solid #eeeeee;
 }
+
+.about{
+	/* border: 1px solid #fff; */
+	color: var(--logo-text-color);
+	text-align: center;
+}
