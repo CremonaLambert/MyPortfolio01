@@ -73,7 +73,51 @@ body {
 	height: 100vh;
 	/* max-width: 1000px; */
 	/* margin: auto 0; */
+
+	/* position: relative; */
+
 }
+
+/* ul li {
+	position: absolute;
+	border: 1px solid #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 8px;
+	list-style: none;
+}
+
+.profile_section li {
+	bottom: -40px;
+	left: 10vh;
+	animation: spin 10s linear infinite;
+
+}
+
+.profile_section li:nth-child(2){
+	bottom: -40px;
+	left: 40vh;
+	animation-delay: 2s;
+}
+
+.profile_section li:nth-child(3){
+	bottom: -40px;
+	left: 70vh;
+	animation-delay: 4s;
+}
+
+.profile_section li:nth-child(4){
+	bottom: -40px;
+	animation-delay: 6s;
+}
+
+.profile_section li:nth-child(5){
+	bottom: -40px;
+	left: 65vh;
+	animation-delay: 6s;
+}
+ */
+
 
 .icon_infinite{
 	border: 3px solid rebeccapurple;
