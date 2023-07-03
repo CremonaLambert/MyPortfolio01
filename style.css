@@ -19,7 +19,6 @@ body {
 }
 
 .logo{
-	/* border: 3px solid #eeeeee; */
 	border-bottom: 3px solid var(--logo-text-color);
 	border-right: 3px solid var(--logo-text-color);
 	width: 120px;
@@ -27,8 +26,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center; 
-	
-
 }
 
 .bar {
@@ -42,8 +39,8 @@ body {
 	top: 0;
 }
 
+
 .bar h1 {
-	/* border-bottom: #eeeeee; */
 	color: #eeeeee;
 	font-size: 1.6rem;
 }
@@ -68,96 +65,55 @@ body {
 }
 
 .profile_section {
-	/* border: 2px solid blue; */
+	border: 2px solid blue;
 	background-color: #fff;
-	/* padding: 40px 20px; */
 	display: flex;
 	flex-direction: column;
-	/* flex-direction: row; */
-	/* justify-content: center; */
-	/* position: relative; */
 	height: 100vh;
-	/* max-width: 1000px; */
-	/* margin: auto 0; */
-
-	/* position: relative; */
-
 }
 
-/* ul li {
-	position: absolute;
-	border: 1px solid #fff;
-	width: 40px;
-	height: 40px;
-	border-radius: 8px;
-	list-style: none;
+.profile_text{
+	border: solid 2px blueviolet;
+	max-width: 600px;
 }
 
-.profile_section li {
-	bottom: -40px;
-	left: 10vh;
-	animation: spin 10s linear infinite;
-
+.picture_box{
+	border: solid 2px red;
 }
-
-.profile_section li:nth-child(2){
-	bottom: -40px;
-	left: 40vh;
-	animation-delay: 2s;
-}
-
-.profile_section li:nth-child(3){
-	bottom: -40px;
-	left: 70vh;
-	animation-delay: 4s;
-}
-
-.profile_section li:nth-child(4){
-	bottom: -40px;
-	animation-delay: 6s;
-}
-
-.profile_section li:nth-child(5){
-	bottom: -40px;
-	left: 65vh;
-	animation-delay: 6s;
-}
- */
 
 
 .icon_infinite{
 	border: 3px solid rebeccapurple;
+	max-width: 450px;
 }
 
 .profile_text_section{
-	width: 450px;
+	border: solid 2px yellow;
+	max-width: 600px;
 }
 
 .section-center {
 	border: 2px solid #212121;
-	max-width: 1010px;
-	width: 70%;
-	/* position: absolute; */
-	/* display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+	max-width: 3000px;
 	display: flex;
-	/* flex-direction: column; */
-	justify-content: space-around;
-	/* align-content: center; */
+	justify-content: space-between;
 	margin: auto; 
 	padding: 95px;
-	/* height: 100vh; */
 }
 
-.section-center h1 {
+#name {
+	border: solid 2px palevioletred;
 	font-weight: normal;
 	font-size: 3rem;
-	margin: 0;
+	margin-bottom: 35px;
 }
-.section-center p {
+.profile_text, .hi_text {
+	border: solid 2px green;
 	font-size: 1.18rem;
 	line-height: 1.6;
+	max-width: 450px;
 }
+
 
 .button {
 	border: 3px solid black;
@@ -170,6 +126,7 @@ body {
 	-webkit-transition: ease-out 0.4s;
 	-moz-transition: ease-out 0.4s;
 	transition: ease-out 0.5s;
+	margin-top: 35px;
 }
 
 .button:hover {
@@ -183,10 +140,7 @@ body {
 	text-align: center;
   }
 
-/* .button:hover {
-	background-color: #212121;
-	color: #eeeeee;
-} */
+
 #name{
 	font-weight: bold;
 }
