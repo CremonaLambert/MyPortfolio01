@@ -70,6 +70,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
+	/* padding: 95px 0; */
+	padding: auto 0;
 }
 
 .profile_text{
@@ -79,6 +81,11 @@ body {
 
 .picture_box{
 	border: solid 2px red;
+}
+
+#laptop {
+	width: 400px;
+	height: 400px;
 }
 
 
@@ -96,26 +103,26 @@ body {
 	border: 2px solid #212121;
 	max-width: 3000px;
 	display: flex;
-	justify-content: space-between;
-	margin: auto; 
-	padding: 95px;
+	justify-content: space-around;
+	margin: auto 90px; 
+	padding: 50px;
 }
 
 #name {
-	border: solid 2px palevioletred;
+	/* border: solid 2px palevioletred; */
 	font-weight: normal;
 	font-size: 3rem;
 	margin-bottom: 35px;
 }
 .profile_text, .hi_text {
-	border: solid 2px green;
+	/* border: solid 2px green; */
 	font-size: 1.18rem;
 	line-height: 1.6;
 	max-width: 450px;
 }
 
 
-.button {
+.button, .contact_me {
 	border: 3px solid black;
 	padding: 10px 15px;
 	text-decoration: none;
@@ -129,7 +136,7 @@ body {
 	margin-top: 35px;
 }
 
-.button:hover {
+.button:hover, .contact_me:hover {
 	box-shadow: inset 400px 50px 0 0 #212121;
 	color: #eeeeee;
   }
@@ -143,19 +150,6 @@ body {
 
 #name{
 	font-weight: bold;
-}
-
-.section2 {
-	background-color: #212121;
-	padding: 60px 45px;
-}
-
-.section2-center {
-	max-width: 1200px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(300px, 1fr)); 
-	grid-gap: 45px;
 }
 
 .section2-center h3 {
@@ -191,8 +185,63 @@ body {
 	border: 2px solid #eeeeee;
 }
 
-.about{
-	/* border: 1px solid #fff; */
-	color: var(--logo-text-color);
+.section2-center {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(300px, 1fr)); 
+	grid-gap: 45px;
+}
+
+.section2 {
+	background-color: #212121;
+	padding: 60px 45px;
+}
+
+#me {
+	width: 450px;
+	height: 450px;
+}
+
+/* --------------------About Me Section-------------------- */
+.about_Me_section{
+	border: solid 2px rgb(0, 255, 42);
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+.about_me_tittle{
 	text-align: center;
+	font-size: 50px;
+}
+.about{
+	border: solid 2px #000;
+}
+
+.about_text_button_section{
+	border: solid 2px purple;
+}
+.about_picture_box{
+	border: solid 2px orange;
+}
+
+.about_inner_box{
+	border: solid 2px red;
+	display: flex;
+	justify-content: space-between;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.about_me_head_text{
+	border: solid 2px palevioletred;
+	max-width: 250px;
+	/* padding-bottom: 35px; */
+	font-size: 20px;
+}
+
+.about_me_text{
+	border: solid 2px yellowgreen;
+	max-width: 600px;
+	padding-top: 20px;
 }
