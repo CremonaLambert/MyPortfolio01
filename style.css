@@ -65,7 +65,7 @@ body {
 }
 
 .profile_section {
-	border: 2px solid blue;
+	/* border: 2px solid blue; */
 	background-color: #fff;
 	display: flex;
 	flex-direction: column;
@@ -75,12 +75,12 @@ body {
 }
 
 .profile_text{
-	border: solid 2px blueviolet;
+	/* border: solid 2px blueviolet; */
 	max-width: 600px;
 }
 
 .picture_box{
-	border: solid 2px red;
+	/* border: solid 2px red; */
 }
 
 #laptop {
@@ -90,17 +90,17 @@ body {
 
 
 .icon_infinite{
-	border: 3px solid rebeccapurple;
+	/* border: 3px solid rebeccapurple; */
 	max-width: 450px;
 }
 
 .profile_text_section{
-	border: solid 2px yellow;
+	/* border: solid 2px yellow; */
 	max-width: 600px;
 }
 
 .section-center {
-	border: 2px solid #212121;
+	/* border: 2px solid #212121; */
 	max-width: 3000px;
 	display: flex;
 	justify-content: space-around;
@@ -204,29 +204,31 @@ body {
 }
 
 /* --------------------About Me Section-------------------- */
-.about_Me_section{
-	border: solid 2px rgb(0, 255, 42);
+
+.about_Me_section {
+	/* border: solid 2px rgb(0, 255, 42); */
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
+	font-size: 1.18rem;
 }
 .about_me_tittle{
 	text-align: center;
 	font-size: 50px;
 }
-.about{
-	border: solid 2px #000;
+.about {
+	/* border: solid 2px #000; */
 }
 
-.about_text_button_section{
-	border: solid 2px purple;
+.about_text_button_section {
+	/* border: solid 2px purple; */
 }
-.about_picture_box{
-	border: solid 2px orange;
+.about_picture_box {
+	/* border: solid 2px orange; */
 }
 
-.about_inner_box{
-	border: solid 2px red;
+.about_inner_box {
+	/* border: solid 2px red; */
 	display: flex;
 	justify-content: space-between;
 	max-width: 1100px;
@@ -234,14 +236,19 @@ body {
 }
 
 .about_me_head_text{
-	border: solid 2px palevioletred;
+	/* border: solid 2px palevioletred; */
 	max-width: 250px;
 	/* padding-bottom: 35px; */
 	font-size: 20px;
 }
 
 .about_me_text{
-	border: solid 2px yellowgreen;
+	/* border: solid 2px yellowgreen; */
 	max-width: 600px;
 	padding-top: 20px;
+}
+
+.about_me_tittle {
+	/* border: solid 2px red; */
+	padding-bottom: 40px;
 }
