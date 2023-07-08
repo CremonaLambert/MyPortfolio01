@@ -212,7 +212,7 @@ body {
 	height: 100vh;
 	font-size: 1.18rem;
 }
-.about_me_tittle{
+.about_me_tittle, .what_services_tittle{
 	text-align: center;
 	font-size: 50px;
 }
@@ -248,7 +248,31 @@ body {
 	padding-top: 20px;
 }
 
-.about_me_tittle {
+.about_me_tittle, .what_services_tittle {
 	/* border: solid 2px red; */
 	padding-bottom: 40px;
+}
+
+/* --------------------what Services I'm Providing Section-------------------- */
+
+.what_services_Im_providing_section {
+	height: 100vh;
+	/* border: solid 2px blue; */
+	/* display: flex; */
+	/* flex-direction: column; */
+}
+
+.what01_picture_box, .what02_picture_box, .what03_picture_box {
+	/* border: solid 2px yellowgreen; */
+}
+
+.what_services_inner_container {
+	/* border: solid 2px purple; */
+	max-width: 1400px;
+	margin: 0 auto;
+	display: flex;
+	/* display: grid; */
+	/* grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));  */
+	/* grid-gap: 45px; */
+	justify-content: space-around;
 }
