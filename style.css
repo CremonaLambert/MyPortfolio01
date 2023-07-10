@@ -69,7 +69,7 @@ body {
 
 
 /*--------------------Start of Home page Profile section--------------------*/
-.profile_section_parent_container {
+.profile_section_parent_container, .about_card_container, .what_services_container{
 	border: 2px solid blue;
 	background-color: #fff;
 	/* height: 100vh; */
@@ -77,28 +77,32 @@ body {
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
-.Profile_picture_box_section, .profile_text_section{
+.Profile_picture_box_section, .profile_text_section, .about_text_button_section, .about_picture_box, .what01_picture_box, .what02_picture_box, .what03_picture_box{
 	border: 3px solid yellowgreen;
 	display: flex;
 	margin: 0 auto;
 	align-items: center;
 }
 
-/* .profile_section_inner_container {
-	border: 2px solid #212121;
-	max-width: 3000px;
-	display: flex;
-	justify-content: space-around;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	margin: auto 90px; 
-	padding: 50px;
-}  */
-
 .profile_text{
 	/* border: solid 2px blueviolet; */
 	max-width: 600px;
 }
+/*--------------------End of Home page Profile section--------------------*/
+
+
+.about_Me_section_parent_container, .what_services_Im_providing_section_parent_container{
+	border: 2px solid rgb(231, 29, 15);
+	background-color: #fff;
+	display: grid;
+	grid-template-rows: 1fr;
+} 
+
+.about_card_container, .about_me_tittle, .what_services_container, .what_services_tittle{
+	border: 3px solid rgb(54, 92, 94);
+}
+
+
 
 .icon_infinite{
 	/* border: 3px solid rebeccapurple; */
@@ -174,11 +178,7 @@ p {
 	margin: 0;
 }
 
-.section2-center p {
-	margin: 0;
-	line-height: 1.6;
-	color: rgb(79, 112, 101);
-}
+
 .footer {
 	text-align: center;
 	padding: 60px 45px;
@@ -189,27 +189,7 @@ p {
 
 }
 
-.item {
-	border: 2px solid rgb(27, 26, 26);
-	padding:15px;
-}
 
-.item:hover {
-	border: 2px solid #eeeeee;
-}
-
-.section2-center {
-	max-width: 1200px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(300px, 1fr)); 
-	grid-gap: 45px;
-}
-
-.section2 {
-	background-color: #212121;
-	padding: 60px 45px;
-}
 
 #me {
 	width: 450px;
@@ -230,15 +210,15 @@ p {
 
 /* --------------------About Me Section-------------------- */
 
-.about_Me_section {
-	/* border: solid 2px rgb(0, 255, 42); */
-	/* display: flex;
-	flex-direction: column; */
+/*.about_Me_section_parent_container {
+	border: solid 2px rgb(0, 255, 42);
+	display: flex;
+	flex-direction: column; 
 	display: grid;
 	grid-template-rows: 1fr;
 	height: 100vh;
 	font-size: 1.18rem;
-}
+}*/
 .about_me_tittle, .what_services_tittle, .Work_experience_tittle {
 	text-align: center;
 	font-size: 50px;
