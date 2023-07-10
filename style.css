@@ -79,16 +79,6 @@ body {
 	max-width: 600px;
 }
 
-.picture_box{
-	/* border: solid 2px red; */
-}
-
-#laptop {
-	width: 400px;
-	height: 400px;
-}
-
-
 .icon_infinite{
 	/* border: 3px solid rebeccapurple; */
 	max-width: 450px;
@@ -116,9 +106,14 @@ body {
 }
 .profile_text, .hi_text {
 	/* border: solid 2px green; */
+	/* font-size: 1.18rem;
+	line-height: 1.6; */
+	max-width: 450px;
+}
+
+p {
 	font-size: 1.18rem;
 	line-height: 1.6;
-	max-width: 450px;
 }
 
 
@@ -203,6 +198,18 @@ body {
 	height: 450px;
 }
 
+
+#laptop, #code {
+	width: 400px;
+	height: 400px;
+}
+
+#code {
+	border-radius: 4.5px;
+	padding-bottom: 10px;
+}
+
+
 /* --------------------About Me Section-------------------- */
 
 .about_Me_section {
@@ -212,19 +219,11 @@ body {
 	height: 100vh;
 	font-size: 1.18rem;
 }
-.about_me_tittle, .what_services_tittle{
+.about_me_tittle, .what_services_tittle, .Work_experience_tittle {
 	text-align: center;
 	font-size: 50px;
-}
-.about {
-	/* border: solid 2px #000; */
-}
-
-.about_text_button_section {
-	/* border: solid 2px purple; */
-}
-.about_picture_box {
-	/* border: solid 2px orange; */
+	padding-bottom: 100px;
+	/* border-bottom: solid 3px rgb(39, 65, 39); */
 }
 
 .about_inner_box {
@@ -248,25 +247,21 @@ body {
 	padding-top: 20px;
 }
 
-.about_me_tittle, .what_services_tittle {
-	/* border: solid 2px red; */
+/* .about_me_tittle, .what_services_tittle, .Work_experience_tittle {
+	border: solid 2px red;
 	padding-bottom: 40px;
-}
+} */
 
 /* --------------------what Services I'm Providing Section-------------------- */
 
-.what_services_Im_providing_section {
+.what_services_Im_providing_section, .Work_Experience_section {
 	height: 100vh;
 	/* border: solid 2px blue; */
 	/* display: flex; */
 	/* flex-direction: column; */
 }
 
-.what01_picture_box, .what02_picture_box, .what03_picture_box {
-	/* border: solid 2px yellowgreen; */
-}
-
-.what_services_inner_container {
+.what_services_inner_container, .work_experience_inner_container {
 	/* border: solid 2px purple; */
 	max-width: 1400px;
 	margin: 0 auto;
@@ -276,11 +271,42 @@ body {
 	/* grid-gap: 45px; */
 	justify-content: space-around;
 }
+.what_services_inner_container{
+	border: 3px solid red;
+}
 
-.data_analysis, .data_analysis01, .websites, .websites01, .pit_and_stope, .pit_and_stope01 {
+.data_analysis, .data_analysis01, .websites, .websites01, .pit_and_stope, .pit_and_stope01, .Micromine, .AutoCAD, .HTML_CSS_JS{
 	max-width: 400px;
 }
 
-.data_analysis, .websites, .pit_and_stope {
+.data_analysis, .websites, .pit_and_stope, .Micromine, .AutoCAD, .HTML_CSS_JS {
 	padding-bottom: 25px;
+}
+
+
+/* --------------------Work Experience-------------------- */
+
+/* .Work_Experience_section {
+	border: solid 2px blue;
+} */
+
+/* .Work_experience_tittle{
+
+} */
+
+.Work_experience_containe{
+	border: solid 2px yellowgreen;
+}
+
+/* .work_experience_inner_container{
+	border: solid 2px red;
+	max-width: 1400px;
+	margin: 0 auto;
+	display: flex;
+} */
+
+.Experience01_box, .Experience02_box, .Experience03_box{
+	box-shadow: 0px 0px 0px 1px #212121;
+	padding: 25px;
+	border-radius: 5px;
 }
