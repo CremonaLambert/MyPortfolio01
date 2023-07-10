@@ -68,40 +68,120 @@ body {
 /*--------------------End Navigation lists--------------------*/
 
 
-/*--------------------Start of Home page Profile section--------------------*/
-.profile_section_parent_container, .about_card_container, .what_services_container{
-	border: 2px solid blue;
-	background-color: #fff;
-	/* height: 100vh; */
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile_section_parent_container {
+	background-color: #5e87d3;
+}
+.about_Me_section_parent_container{
+	background-color: #df6535;
+}
+.what_services_Im_providing_section_parent_container{
+	background-color: #2bc233;	
+}
+.Work_Experience_section_parent_container{
+	background-color: #a8941f;
 }
 
-.Profile_picture_box_section, .profile_text_section, .about_text_button_section, .about_picture_box, .what01_picture_box, .what02_picture_box, .what03_picture_box{
-	border: 3px solid yellowgreen;
+/*--------------------Start of Home page Profile section--------------------*/
+
+.profile_section_parent_container, .about_Me_section_parent_container, .what_services_Im_providing_section_parent_container, .Work_Experience_section_parent_containe{
+	/* height: 800px; */
+	display: flex;
+	flex-direction: column;
+}
+.about_Me_section_inner_container, .what_services_im_providing_inner_container, .Work_Experience_inner_container, .profile_inner_container{
+	width: 100vmax;
+	border: solid 3px black;
+	margin: auto 0;
+	height: 100vh;
+}
+.about_card_container, .what_services_container, .Work_experience_container, .profile_inner_container{
+	border: solid 3px #3235e7;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	margin: auto 0;
+}
+
+.Profile_picture_box_section, .profile_text_section,   .about_text_button_section, .about_picture_box,   .what01_picture_box, .what02_picture_box, .what03_picture_box,     .Experience01_box, .Experience02_box, .Experience03_box{
+	border: 3px solid rgb(254, 255, 251);
 	display: flex;
 	margin: 0 auto;
 	align-items: center;
-}
+} 
 
-.profile_text{
-	/* border: solid 2px blueviolet; */
-	max-width: 600px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile_text, .hi_text {
+	/* border: solid 2px green; */
+	/* font-size: 1.18rem;
+	line-height: 1.6; */
+	max-width: 450px;
+} 
 /*--------------------End of Home page Profile section--------------------*/
 
 
-.about_Me_section_parent_container, .what_services_Im_providing_section_parent_container{
-	border: 2px solid rgb(231, 29, 15);
+/*--------------------Start of about Me section--------------------*/
+/* .about_Me_section_parent_container, .what_services_Im_providing_section_parent_container, .Work_Experience_section_parent_container{
+	border: 2px solid rgb(231, 29, 15); 
 	background-color: #fff;
 	display: grid;
 	grid-template-rows: 1fr;
-} 
+}  */
 
-.about_card_container, .about_me_tittle, .what_services_container, .what_services_tittle{
-	border: 3px solid rgb(54, 92, 94);
-}
 
+/*--------------------End of about Me section--------------------*/
 
 
 .icon_infinite{
@@ -109,10 +189,6 @@ body {
 	max-width: 450px;
 }
 
-.profile_text_section{
-	/* border: solid 2px yellow; */
-	max-width: 600px;
-}
 
 
 .icon:hover {
@@ -126,12 +202,7 @@ body {
 	font-size: 3rem;
 	margin-bottom: 35px;
 }
-.profile_text, .hi_text {
-	/* border: solid 2px green; */
-	/* font-size: 1.18rem;
-	line-height: 1.6; */
-	max-width: 450px;
-}
+
 
 p {
 	font-size: 1.18rem;
@@ -167,15 +238,6 @@ p {
 
 #name{
 	font-weight: bold;
-}
-
-.section2-center h3 {
-	color: #eeeeee;
-	text-align: center;
-	padding: 20px 0;
-	font-size: 1.5rem;
-	font-weight: normal;
-	margin: 0;
 }
 
 
@@ -289,7 +351,7 @@ p {
 }
 
 .data_analysis, .websites, .pit_and_stope, .Micromine, .AutoCAD, .HTML_CSS_JS {
-	padding-bottom: 25px;
+	/* padding-bottom: 25px; */
 }
 
 
