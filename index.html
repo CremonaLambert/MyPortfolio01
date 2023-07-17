@@ -1,148 +1,167 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-	  <!-- font-awsome link -->
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-	  <!--css file linked--> 
-	  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Font Awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <!-- CSS file linked -->
+  <link rel="stylesheet" href="style.css">
 
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>my profile page</title>
+  <title>My Profile Page</title>
 </head>
 
 <body>
-   <!-- Page container -->
-   <div class="container">
+<!-- Page container -->
+<div class="container">
 
-    <!-- Menu Bar section -->
-    <div class="top_header_menu_bar_section">
+  <!-- Menu Bar section -->
+  <div class="top_header_menu_bar_section">
 
-      <!-- Logo Section -->
-      <div class="logo">
-        <h1 class="logo_text">Cremona</h1>
-      </div>
-      <!-- End of Logo Section -->
-
-      <!-- Navigation List -->
-      <ul class="navigation_lists">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <!-- End of Navigation List -->
-
+    <!-- Logo Section -->
+    <div class="logo">
+      <h1 class="logo_text">Cremona</h1>
     </div>
-    <!-- End Menu Bar -->
+    <!-- End of Logo Section -->
 
-    <!-- Home page Profile Section -->
-    <section class="profile_section_parent_container">
-      <div class="profile_inner_container">
-        <div class="profile_text_section">
-          <div class="profile_text_inner_container">
-            <p class="hi_text">Hi, my name is</p>
-            <h1 id="name">Cremona Lambert</h1>
-            <p class="profile_text">I am a mining engineer who is passionate about my field, and I have experience and knowledge in HTML, CSS, JavaScript, WordPress, Micromine, and AutoCAD. I am currently studying for my undergraduate degree and consistently working on improving my skills.</p>
-            <a href="#" class="button">Download CV</a>
-          </div>
-        </div>
-        <div class="profile_picture_box_section">
-          <img src="./me-removebg-preview.png" alt="cremona_lambert" id="me">
+    <!-- Navigation List for Mobile -->
+    <div class="mobile-navigation">
+      <div class="dropdown">
+        <button class="dropbtn"><i class="fas fa-bars"></i></button>
+        <div class="dropdown-content">
+          <a href="#" class="translate" data-key="home">Home</a>
+          <a href="#" class="translate" data-key="about">About</a>
+          <a href="#" class="translate" data-key="portfolio">Portfolio</a>
+          <a href="#" class="translate" data-key="contact">Contact</a>
         </div>
       </div>
-    </section>
-    <!-- End of Home page Profile Section -->
+    </div>
+    <!-- End of Navigation List for Mobile -->
 
-    <!-- About Me Section -->
-    <section class="about_Me_section_parent_container">
-      <div class="about_Me_section_inner_container">
-        <h2 class="about_me_tittle">About Me</h2>
-        <div class="about_card_container">
-          <div class="about_picture_box">
-            <img src="./laptop-g8cc9b8750_1280.png" alt="laptop-image" id="laptop">
-          </div>
-          <div class="about_text_button_section">
-            <div class="about_inner_card_section">
-              <p class="about_me_head_text"><strong>Experienced Mining Engineer with Proficiency in Micromine, WordPress, AutoCAD, and Web Development</strong></p>
-              <p class="about_me_text">I am a highly dedicated mining engineer with extensive knowledge in Micromine, AutoCAD, HTML, CSS, JavaScript, and WordPress. I am currently enrolled in an undergraduate program, and I am consistently striving to enhance my skill set. My passion for the field drives me to stay up-to-date with the latest advancements and contribute to the growth and success of any project I am involved in.</p>
-              <a href="#" class="contact_me">Contact Me</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of About Me Section -->
+    <!-- Navigation List -->
+    <ul class="navigation_lists">
+      <li><a href="#" class="translate" data-key="home">Home</a></li>
+      <li><a href="#" class="translate" data-key="about">About</a></li>
+      <li><a href="#" class="translate" data-key="portfolio">Portfolio</a></li>
+      <li><a href="#" class="translate" data-key="contact">Contact</a></li>
+    </ul>
+    <!-- End of Navigation List -->
 
-    <!-- What Services I'm Providing Section -->
-    <section class="what_services_Im_providing_section_parent_container">
-      <div class="what_services_im_providing_inner_container">
-        <h2 class="what_services_tittle">What Services I'm Providing</h2>
-        <div class="what_services_container">
-          <div class="what01_picture_box">
-            <div class="what01_inner_picture_box">
-              <img src="./code-gdfaf0bc9f_1280.jpg" alt="code-image" id="code">
-              <h3 class="data_analysis">Professional Data Analysis Services for Mining</h3>
-              <p class="data_analysis01">I offer professional data analysis services, leveraging my expertise in various tools and programming languages to provide valuable insights.</p>
-            </div>
-          </div>
-          <div class="what02_picture_box">
-            <div class="what01_inner_picture_box">
-              <img src="./code-gdfaf0bc9f_1280.jpg" alt="code-image" id="code">
-              <h3 class="websites">Professional Website Design Services</h3>
-              <p class="websites01">I offer professional website design services, leveraging my expertise in HTML, CSS, JavaScript, React, and WordPress to create stunning and functional websites.</p>
-            </div>
-          </div>
-          <div class="what03_picture_box">
-            <div class="what01_inner_picture_box">
-              <img src="./code-gdfaf0bc9f_1280.jpg" alt="code-image" id="code">
-              <h3 class="pit_and_stope">Pit and Stope Optimization Services</h3>
-              <p class="pit_and_stope01">I provide professional pit and stope optimization services, utilizing my expertise in mining engineering and various software tools.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of What Services I'm Providing Section -->
+    <!-- Language switcher -->
+    <div class="language-switcher">
+      <button class="language-switcher-option" onclick="switchLanguage('fr')">FR</button>
+      <button class="language-switcher-option" onclick="switchLanguage('en')">EN</button>
+    </div>
+    <!-- End of Language switcher -->
 
-    <!-- Work Experience Section -->
-    <section class="Work_Experience_section_parent_container">
-      <div class="Work_Experience_inner_container">
-        <h2 class="Work_experience_tittle">Work Experience</h2>
-        <div class="Work_experience_container">
-          <div class="Experience01_box">
-            <div class="Experience01_inner_box">
-              <h3 class="Micromine">Micromine</h3>
-              <p class="data_analysis01">Micromine is a powerful software used in the mining industry for geological modeling, mine design, and resource estimation. With its advanced features and user-friendly interface, it allows mining engineers to efficiently analyze and visualize data, aiding in the decision-making process for optimal mining operations.</p>
-            </div>
-          </div>
-          <div class="Experience02_box">
-            <div class="Experience01_inner_box">
-              <h3 class="AutoCAD">AutoCAD</h3>
-              <p class="websites01">AutoCAD is a powerful computer-aided design (CAD) software used by professionals in various industries, including engineering, architecture, and construction. With its extensive range of tools and features, AutoCAD allows users to create precise and detailed 2D and 3D models, making it an essential tool for designing and drafting projects.</p>
-            </div>
-          </div>
-          <div class="Experience03_box">
-            <div class="Experience01_inner_box">
-              <h3 class="HTML_CSS_JS">HTML, CSS and JavaScript</h3>
-              <p class="pit_and_stope01">HTML, CSS, and JavaScript are foundational skills for web development. HTML is used to structure the content of a webpage, CSS is used to style and layout the webpage, and JavaScript is used to add interactivity and dynamic behavior to the webpage.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of Work Experience Section -->
-
-    <!-- Footer Section -->
-    <footer class="footer">&copy; 2022 Cremona Lambert</footer>
   </div>
-  <!-- End of Page container -->
-</body>
+  <!-- End Menu Bar -->
 
+  <!-- Home page Profile Section -->
+  <section class="profile_section_parent_container">
+    <div class="profile_inner_container">
+      <div class="profile_text_section">
+        <div class="profile_text_inner_container">
+          <p class="hi_text">Hi, my name is</p>
+          <h1 id="name">Cremona Lambert</h1>
+          <p class="profile_text">I am a mining engineer who is passionate about my field, and I have experience and knowledge in HTML, CSS, JavaScript, WordPress, Micromine, and AutoCAD. I am currently studying for my undergraduate degree and consistently working on improving my skills.</p>
+          <a href="#" class="button translate" data-key="downloadCV">Download CV</a>
+        </div>
+      </div>
+      <div class="profile_picture_box_section">
+        <img src="./me-removebg-preview.png" alt="cremona_lambert" id="me">
+      </div>
+    </div>
+  </section>
+  <!-- End of Home page Profile Section -->
+
+  <!-- About Me Section -->
+  <section class="about_Me_section_parent_container">
+    <div class="about_Me_section_inner_container">
+      <h2 class="about_me_tittle">About Me</h2>
+      <div class="about_card_container">
+        <div class="about_picture_box">
+          <img src="./laptop-g8cc9b8750_1280.png" alt="laptop-image" id="laptop">
+        </div>
+        <div class="about_text_button_section">
+          <div class="about_inner_card_section">
+            <p class="about_me_head_text"><strong>Experienced Mining Engineer with Proficiency in Micromine, WordPress, AutoCAD, and Web Development</strong></p>
+            <p class="about_me_text">I am a highly dedicated mining engineer with extensive knowledge in Micromine, AutoCAD, HTML, CSS, JavaScript, and WordPress. I am currently enrolled in an undergraduate program, and I am consistently striving to enhance my skill set. My passion for the field drives me to stay up-to-date with the latest advancements and contribute to the growth and success of any project I am involved in.</p>
+            <a href="#" class="contact_me translate" data-key="contactMe">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of About Me Section -->
+
+  <!-- What Services I'm Providing Section -->
+  <section class="what_services_Im_providing_section_parent_container">
+    <div class="what_services_im_providing_inner_container">
+      <h2 class="what_services_tittle">What Services I'm Providing</h2>
+      <div class="what_services_container">
+        <div class="what01_picture_box">
+          <div class="what01_inner_picture_box">
+            <img src="./code-gdfaf0bc9f_1280.jpg" alt="code-image" id="code">
+            <h3 class="data_analysis translate" data-key="dataAnalysis">Professional Data Analysis Services for Mining</h3>
+            <p class="data_analysis01 translate" data-key="dataAnalysisDescription">I offer professional data analysis services, leveraging my expertise in various tools and programming languages to provide valuable insights.</p>
+          </div>
+        </div>
+        <div class="what02_picture_box">
+          <div class="what01_inner_picture_box">
+            <img src="./code-gdfaf0bc9f_1280.jpg" alt="code-image" id="code">
+            <h3 class="websites translate" data-key="websiteDesign">Professional Website Design Services</h3>
+            <p class="websites01 translate" data-key="websiteDesignDescription">I offer professional website design services, leveraging my expertise in HTML, CSS, JavaScript, React, and WordPress to create stunning and functional websites.</p>
+          </div>
+        </div>
+        <div class="what03_picture_box">
+          <div class="what01_inner_picture_box">
+            <img src="./code-gdfaf0bc9f_1280.jpg" alt="code-image" id="code">
+            <h3 class="pit_and_stope translate" data-key="pitStopeOptimization">Pit and Stope Optimization Services</h3>
+            <p class="pit_and_stope01 translate" data-key="pitStopeOptimizationDescription">I provide professional pit and stope optimization services, utilizing my expertise in mining engineering and various software tools.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of What Services I'm Providing Section -->
+
+  <!-- Work Experience Section -->
+  <section class="Work_Experience_section_parent_container">
+    <div class="Work_Experience_inner_container">
+      <h2 class="Work_experience_tittle">Work Experience</h2>
+      <div class="Work_experience_container">
+        <div class="Experience01_box">
+          <div class="Experience01_inner_box">
+            <h3 class="Micromine">Micromine</h3>
+            <p class="data_analysis01 translate" data-key="micromineDescription">Micromine is a powerful software used in the mining industry for geological modeling, mine design, and resource estimation. With its advanced features and user-friendly interface, it allows mining engineers to efficiently analyze and visualize data, aiding in the decision-making process for optimal mining operations.</p>
+          </div>
+        </div>
+        <div class="Experience02_box">
+          <div class="Experience01_inner_box">
+            <h3 class="AutoCAD">AutoCAD</h3>
+            <p class="websites01 translate" data-key="autocadDescription">AutoCAD is a powerful computer-aided design (CAD) software used by professionals in various industries, including engineering, architecture, and construction. With its extensive range of tools and features, AutoCAD allows users to create precise and detailed 2D and 3D models, making it an essential tool for designing and drafting projects.</p>
+          </div>
+        </div>
+        <div class="Experience03_box">
+          <div class="Experience01_inner_box">
+            <h3 class="HTML_CSS_JS">HTML, CSS and JavaScript</h3>
+            <p class="pit_and_stope01 translate" data-key="webDevelopmentDescription">HTML, CSS, and JavaScript are foundational skills for web development. HTML is used to structure the content of a webpage, CSS is used to style and layout the webpage, and JavaScript is used to add interactivity and dynamic behavior to the webpage.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Work Experience Section -->
+
+  <!-- Footer Section -->
+  <footer class="footer">&copy; 2022 Cremona Lambert</footer>
+</div>
+<!-- End of Page container -->
+
+<script src="script.js"></script>
+</body>
 </html>
