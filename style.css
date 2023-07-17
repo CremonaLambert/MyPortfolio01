@@ -149,19 +149,38 @@
   }
   
   .about_card_container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	align-items: center;
+	gap: 50px;
+	max-width: 1200px;
+	margin: 0 auto;
+  }
+  
+  .about_picture_box {
+	flex: 1 1 30%;
+	max-width: 400px;
+	margin-bottom: 30px;
+  }
+  
+  .about_inner_card_section {
+	flex: 1 1 60%;
+	max-width: 600px;
   }
   
   .about_picture_box img {
 	max-width: 100%;
 	height: auto;
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
   }
   
   .about_text_button_section {
+	flex: 1 1 100%;
 	text-align: left;
+	max-width: 500px;
   }
   
   .about_inner_card_section {
@@ -324,16 +343,30 @@
   
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
-	.profile_inner_container {
-	  flex-direction: column;
+	.profile_inner_container,
+	.about_card_container,
+	.what_services_container,
+	.Work_experience_container {
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  align-items: flex-start;
 	}
   
 	.profile_text_section,
-	.Profile_picture_box_section {
+	.Profile_picture_box_section,
+	.about_picture_box,
+	.about_inner_card_section,
+	.Experience01_box,
+	.Experience02_box,
+	.Experience03_box {
 	  flex: 1 1 100%;
 	  max-width: none;
 	  text-align: center;
 	  margin-bottom: 30px;
+	}
+  
+	.about_picture_box {
+	  order: -1;
 	}
   }
   
